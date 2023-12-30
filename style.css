@@ -1,0 +1,518 @@
+html{
+    font-size: 62.5%;
+}
+
+main{
+    width: 100vw;
+}
+
+/* header */
+.header-links{
+    width: 80%;
+    margin-inline: auto;
+    padding: 1em 0.5em 1em 0.5em;
+}
+.links-buttons ul{
+    list-style-type: none;
+    color:#4F4F4F;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0.013rem;
+    margin: 0;
+}
+
+.accio-logo{
+    margin-right:1em;
+}
+
+.links-buttons ul li{
+    margin-right: 1em;
+}
+.links-buttons button{
+    padding: .8em 2.4em;
+    border-radius: 8px;
+    border: 2px solid #2F80ED;
+    color:#2F80ED;
+    background-color: white;
+    font-size: 1.4rem;
+    font-style: italic;
+    font-weight: 400;
+}
+/* reminder */
+.reminder{
+    width: 100%;
+    background-color:#2F80ED;
+    text-align: center;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    padding: 0.5em 0.5em;
+    position: fixed;
+    top: 11%;
+}
+
+/* herosection */
+.hero-section{
+    width: 80%;
+    margin:auto;
+    margin-top: 9em;
+    margin-bottom: 9em;
+}
+
+.hero-title{
+    color: #2B2F34;
+    font-size: 4.5rem;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: -0.05em;
+    width: 70%;
+}
+
+.fsd-text{
+    color:  #2F80ED;
+    font-style: italic;
+    font-weight: 400;
+    -webkit-text-stroke: 2px black;
+}
+
+.course-text{
+    font-weight: 600;
+}
+
+.hero-tagline{
+    color: #595959;
+    font-size: 1.6em;
+    width: 60%;
+    font-weight: 400;
+    letter-spacing: 0.035em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+/* hero market */
+.hero-market-each img{
+    margin-right: 1em;
+}
+
+.market-title{
+    color: #2B2F34;
+    font-size: 1.8rem;
+    font-style: italic;
+    font-weight: 500;
+}
+.market-info{
+    color: #4F4F4F;
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+}
+
+.hero-market-all{
+    width: 90%;
+    border-radius: .8em;
+    border: 1px solid #E2E2E2; 
+    padding: 1.5em 2em;;
+    box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.08);
+}
+
+.student-appreciation{
+    color: #525252;
+    font-size: 1.2em;
+    font-weight: 400;
+    border-radius: 2em;
+    box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.12);
+    padding: 0.8em 1.5em;
+    display: inline-block;
+    margin-top: 10em;
+}
+
+/* right hero section */
+.right-hero-section{
+    border-radius: 1.8em;
+    padding: 2.8em 2.4em 2em 2.4em;
+    box-shadow: 0px 25px 54px 0px rgba(0, 0, 0, 0.12);
+}
+
+.right-hero-title{
+    color: #2B2F34;
+    text-align: center;
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: -0.05rem;
+    width: 100%;
+}
+.right-hero-tagline{
+    color: #818D9D;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 80%;
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+
+.hero-student-info{
+    width: 100%;
+    border-radius: .8em;
+    background: #FAFAFA;
+    padding: 1.4em .6em 1.4em 1em;
+    color: #2B2F34;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.hero-student-info svg{
+    margin-right: .5em;
+}
+#phone{
+    color: #8393A9;
+    margin-top: .75em;
+    margin-bottom: 1.5em;
+}
+
+
+.right-hero-button button{
+    border-radius: .8em;
+    background: linear-gradient(277deg, #992FED 0%, #2F80ED 100%);
+    padding: 1em 5em 1em 5em;
+    border: none;
+    color: #FFF;
+    font-size: 1.6rem;
+    font-style: italic;
+    font-weight: 400;
+}
+.right-hero-extra{
+    color: #818D9D;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    width: 80%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.right-hero-extra span{
+    color: #2F80ED;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    
+}
+
+
+/* our course */
+
+.course-box{
+    border-radius: .9em;
+    border: .2em solid #2F80ED;
+    background: #FFF;
+}
+.course-text{
+    margin-top: 7em;
+}
+
+.course-table{
+    width: 70%;
+    margin-top: 6em;
+    margin-bottom: 10em;
+}
+.course-info{
+    width: 66%;
+    margin-inline: auto ;
+}
+
+.course-difficulty{
+    color:  #2B2F34;
+    font-size: 2.6rem;
+    font-style: italic;
+    font-weight: 400;
+}
+.job-assistance{
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.job-assistance-beginner{
+    color: #1D78B0;
+    border-radius: .3em;
+    padding: .3em .5em;
+    background: #E0F3FF;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.job-assistance-intermediate{
+    color: #965400;
+    border-radius: .3em;
+    padding: .3em .5em;
+    background: #FFEED8;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.course-details{
+    color: #565656;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.course-box{
+    padding: 1em 3em 2em 3em;
+}
+
+.course-eligibility{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:30px 60px;
+    margin-top:3.5em;
+    margin-bottom: 4em;  
+}
+
+.topic-course{
+    color: #2B2F34;
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+}
+
+.topic-details{
+    color: #2B2F34;
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: 500;
+    width: 11em;
+}
+
+.learn-more-button button{
+    color: #FFF;
+    font-size: 1.6rem;
+    border-radius: .3em;
+    background: #2F80ED;
+    padding: .5em 2em .5em 2em;
+    border: none;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.brochure-button button{
+    color: #2F80ED;
+    font-size: 1.6rem;
+    background: white;
+    padding: .49em 2em .49em 2em;
+    border-radius: .4em;
+    border: 1px solid  #2F80ED;
+    background: #FFF;
+    font-style: italic;
+    font-weight: 400;
+}
+
+/* course we offer */
+.course-offer-box{
+    background: #ECF8FF;
+}
+.course-heading{
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+    background: linear-gradient(277deg, #992FED 0%, #2F80ED 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.course-tagline{
+    color: #2F80ED;
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 400;
+    line-height: 150%; /* 54px */
+    letter-spacing: -0.54px;
+}
+
+
+/* hiring partner */
+.hiring-partner-box{
+    width: 100%;
+    margin-inline:auto ;
+    margin-top:10em;
+    margin-bottom:14em;
+}
+
+
+#hiring-top-tagline{
+    text-align: center;
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    background: linear-gradient(277deg, #992FED 0%, #2F80ED 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#hiring-partner-headline{
+    width: 70%;
+    margin-inline:auto;
+    color:#2B2F34;
+    text-align: center;
+    font-size: 3.5rem;
+    font-style: italic;
+    font-weight: 400;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+#hiring-botom-tagline{
+    color: #595959;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0.035rem;
+}
+
+.company-image{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 4rem 5rem;
+    margin-top:4.5em;
+    margin-bottom: 4em;
+    align-items: center;
+    justify-items: center;
+}
+
+.placement-button button{
+    color: #FFF;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 400;
+    width: 25rem;
+    padding: 14px 6px 14px 16px;
+    border-radius: .5em;
+    background: #2F80ED; 
+    border: none;
+}
+
+
+
+
+/* student sucess stories */
+.student-testimonial-section{
+    width:80%;
+    margin-inline: auto;
+    margin-top: 9.5rem;
+    margin-bottom: 13.5rem;
+}
+
+.student-testimonial-text-box{
+
+}
+
+#testimonial-headline{
+    color: #2B2F34;
+    font-size: 3.8rem; /*  38px */
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: -0.06rem;
+    margin-bottom: .3em;
+}
+
+#testimonial-tagline{
+    color:#595959;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 130%; /* 23.4px */
+    letter-spacing: 0.36px;
+}
+
+
+.student-feedback-list{
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 10px;
+    margin-top: 5em;
+}
+
+.two-student{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.student-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 1em;
+    border: 2px solid #D7D7D7;
+    background: #FFF;
+    box-shadow: 5px 9px 40px 0px rgba(0, 0, 0, 0.08);
+    padding: 3em;
+    margin-bottom: 2rem;
+}
+
+.all-img-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-box img{
+    margin-right: 1em;
+}
+
+.student-name{
+    color: #000;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.student-post{
+    color: #676767;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.student-feed{
+    color: #676767;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    margin-top:1.6em;
+    margin-bottom:1.175em;
+    width: 95%;
+}
+
+.feeback-date{
+    color: #676767;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+    }
+}
+
+@media (min-width:481) and (max-width: 768px) {
+    body {
+    }
+}
+
+@media (min-width:769px) and (max-width: 480px) {
+    body {
+    }
+}
